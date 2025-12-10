@@ -50,7 +50,7 @@ wd-cli --help         # Show help
 
 ```bash
 # Clone the repository
-git clone https://github.com/rick-999/word-count-cli.git
+git clone https://github.com/Gopendranath/word-count-cli.git
 cd word-count-cli
 
 # Install dependencies
