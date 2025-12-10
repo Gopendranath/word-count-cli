@@ -1,5 +1,5 @@
 {
-  "name": "word-count-cli",
+  "name": "wd-counter-cli",
   "version": "1.0.0",
   "description": "A powerful CLI tool for counting words in files or raw text with interactive prompts and detailed word analysis",
   "keywords": [

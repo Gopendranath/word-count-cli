@@ -13,7 +13,7 @@ A powerful CLI tool for counting words in files or raw text with interactive pro
 ## Installation
 
 ```bash
-npm install -g word-count-cli
+npm install -g wd-counter-cli
 ```
 
 ## Usage
