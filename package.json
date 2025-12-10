@@ -1,0 +1,53 @@
+{
+  "name": "word-count-cli",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool for counting words in files or raw text with interactive prompts and detailed word analysis",
+  "keywords": [
+    "wordcounter",
+    "wordcount",
+    "wordcountcli",
+    "word-counter",
+    "cli",
+    "text-analysis",
+    "file-analysis"
+  ],
+  "license": "ISC",
+  "author": {
+    "name": "rick-999"
+  },
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "wd-cli": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "commands",
+    "utils",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rick-999/word-count-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rick-999/word-count-cli/issues"
+  },
+  "homepage": "https://github.com/rick-999/word-count-cli#readme",
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "@inquirer/prompts": "^8.0.2",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "inquirer": "^13.0.2",
+    "prompts": "^2.4.2"
+  }
+}
